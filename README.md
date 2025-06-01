@@ -105,13 +105,6 @@ php artisan serve
 | PUT    | `/api/biodata/{id}` | Ubah data biodata   |
 | DELETE | `/api/biodata/{id}` | Hapus biodata       |
 
----
-
-## 📝 Catatan
-
-* Jika `php artisan route:list` tidak menampilkan route dari `api.php`, pastikan `api.php` telah diregister di `bootstrap/app.php`.
-* Frontend dapat dikembangkan menggunakan Vue dalam satu halaman dashboard dengan dua tab.
-* Data ditampilkan dalam bentuk card seperti LinkedIn (menggunakan struktur div dan class yang menyerupai desain LinkedIn card).
 
 ---
 
