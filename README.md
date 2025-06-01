@@ -12,7 +12,7 @@ Aplikasi ini adalah proyek tugas yang dibuat menggunakan **Laravel 11** sebagai 
 
 * 🧑‍💼 Menampilkan data biodata seperti kartu LinkedIn
 * ➕ Form input biodata lengkap (nama, jurusan, foto, dsb)
-* 🔁 Single Page dengan dua tab:
+* 🔁 Double Page dengan dua tab:
 
   * **Tab 1**: Menampilkan daftar biodata dalam bentuk **card**
   * **Tab 2**: Form registrasi biodata baru
@@ -26,35 +26,12 @@ Aplikasi ini adalah proyek tugas yang dibuat menggunakan **Laravel 11** sebagai 
 
 * Laravel 11
 * RESTful API via `apiResource`
-* SQLite/MySQL (bebas)
+* MySQL 
 
 ### Frontend:
 
 * Vue.js (Vite / Vue 3)
 * Axios untuk komunikasi dengan backend
-* TailwindCSS (optional)
-
----
-
-## 📁 Struktur Project
-
-```
-/laravel-backend
-  └── routes/
-      ├── web.php
-      └── api.php
-  └── app/
-      └── Http/
-          └── Controllers/
-              └── Api/
-                  └── BiodataController.php
-  └── resources/
-      └── views/
-          └── dashboard.blade.php (jika pakai blade)
-
-  bootstrap/
-      └── app.php (pastikan `api.php` sudah diregister di sini)
-```
 
 ---
 
