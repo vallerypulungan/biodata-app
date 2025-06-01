@@ -2,7 +2,7 @@ Berikut adalah contoh README yang rapi dan informatif untuk tugas Laravel kamu y
 
 ---
 
-# 📘 Aplikasi CRUD Biodata – Laravel + Vue
+# 📘 Aplikasi  Biodata – Laravel + Vue
 
 Aplikasi ini adalah proyek tugas yang dibuat menggunakan **Laravel 11** sebagai backend dan **Vue.js** untuk frontend. Fitur utamanya adalah menampilkan **data biodata seperti tampilan kartu LinkedIn**, serta form untuk **menambahkan data biodata** pada satu halaman dashboard.
 
